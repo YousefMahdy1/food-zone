@@ -190,7 +190,7 @@ nav{
     background-color: #63343d;
     transition: 0.5s;
 }
-section:hover .title-line{
+.section-header:hover .title-line{
     transform: scale(1.5,1);
 }
 .special-container{
@@ -390,6 +390,9 @@ section {
 .product-title {
     font-size: 30px;
     margin-bottom: 10px;
+}
+.product-header:hover .title-line{
+    transform: scale(1.5,1);
 }
 .product-container {
     width: 90%;
